@@ -28,7 +28,11 @@ img {
 }
 
 .page-header {
-        border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+                0 1px 1px 0 rgba(46, 47, 66, 0.16),
+                0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
 
 .header-container {
@@ -51,6 +55,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 ul,
@@ -162,6 +167,8 @@ a {
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(./../images/people-office.jpg);
+    background-size: 1440px;
+    margin: 0 auto;
 }
 
 .header-solutions {
@@ -227,6 +234,7 @@ a {
     border-radius: 4px;
     width: 264px;
     height: 112px;
+    background: #f4f4fd;
     margin-bottom: 8px;
 }
 
@@ -286,6 +294,24 @@ a {
     padding: 32px 16px;
 }
 
+.team-social-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.social-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    fill: #fff;
+}
+
 .team-fio {
     font-weight: 500;
     font-size: 20px;
@@ -306,11 +332,16 @@ a {
 
 .team-item {
     display: block;
-    height: 380px;
+    height: 428px;
     width: 264px;
     border-radius: 0 0 4px 4px;
     background-color: #FFFFFF;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+                0 1px 1px 0 rgba(46, 47, 66, 0.16),
+                0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: #fff;
 }
+
 .header-port {
     display: block;
     font-weight: 700;
