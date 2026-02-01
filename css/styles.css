@@ -396,3 +396,40 @@ a {
     display: block;
     width: 264px;
 }
+
+.social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.footer-social-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    fill: #fff;
+}
+
+.footer-social {
+    display: block;
+    width: 208px;
+}
+
+.footerbox {
+    display: flex;
+    gap: 120px;
+}
